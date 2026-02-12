@@ -1,0 +1,20 @@
+name: datafun-06-eda
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - loguru
+      - pyttsx3
+      - ipython
+      - jupyter
+      - ipykernel
+      - ipywidgets
+      - nbdime
+      - jupyterlab
+      - jupyterlab-git
+      - pandas
+      - pyarrow
+      - matplotlib==3.9.2
+      - seaborn==0.13.2
