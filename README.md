@@ -2,6 +2,7 @@
 
 ## README.md
 - Author: Tammy Mims
+  
 - Purpose: Create a custom exploratory data analysis (EDA) project using GitHub, Jupyter, pandas, Seaborn, and other popular data analytics tools.
 
 ## Commands
@@ -19,7 +20,7 @@ py -m pip install --upgrade -r requirements.txt --timeout 100
 ```
 
 ```
-C:/Repos/datafun-06-eda/.venv/Scripts/python.exe mims.py
+jupyter lab notebooks/tmims_eda.ipynb
 ```
 
 ## Process
@@ -35,6 +36,25 @@ C:/Repos/datafun-06-eda/.venv/Scripts/python.exe mims.py
 ## Files
 - [notebooks/tmims_eda.ipynb](notebooks/tmims_eda.ipynb)
 - [data/car_crashes.csv](data/car_crashes.csv)
+
+## Dataset
+
+| Item | Description |
+| --- | --- |
+| Name | Car Crashes (Seaborn dataset) |
+| Source | [https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv](https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv) |
+| Records | 51 rows, 8 columns |
+
+| Column | Description |
+| --- | --- |
+| abbrev | State abbreviation |
+| total | Total drivers involved in fatal collisions per billion miles |
+| speeding | Percentage of drivers involved in fatal collisions who were speeding |
+| alcohol | Percentage of drivers involved in fatal collisions who were alcohol-impaired |
+| not_distracted | Percentage of drivers involved in fatal collisions who were not distracted |
+| no_previous | Percentage of drivers involved in fatal collisions with no previous accidents |
+| ins_premium | Car insurance premium (annual, dollars) |
+| ins_losses | Insurance losses per insured driver (annual, dollars) |
 
 ## Notes
 - Use the local .venv interpreter in VS Code.
