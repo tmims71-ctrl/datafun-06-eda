@@ -27,6 +27,14 @@ C:/Repos/datafun-06-eda/.venv/Scripts/python.exe mims.py
 - Added a starter script (mims.py) that prints the author and module on two lines.
 - Added a project log to capture work notes.
 - Enabled required packages (jupyterlab, pandas, pyarrow, matplotlib, seaborn).
+- Added seaborn car_crashes dataset to data/car_crashes.csv.
+- Created data and notebooks folders.
+- Built EDA notebook at notebooks/tmims_eda.ipynb with dataset info, workflow sections, and plots.
+- Added additional charts (pairplot, bar chart, boxplot) for the car_crashes dataset.
+
+## Files
+- [notebooks/tmims_eda.ipynb](notebooks/tmims_eda.ipynb)
+- [data/car_crashes.csv](data/car_crashes.csv)
 
 ## Notes
 - Use the local .venv interpreter in VS Code.
