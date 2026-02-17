@@ -37,23 +37,23 @@ jupyter lab notebooks/tmims_eda.ipynb
 - [notebooks/tmims_eda.ipynb](notebooks/tmims_eda.ipynb)
 - [data/car_crashes.csv](data/car_crashes.csv)
 
-## Dataset
+## Dataset (Required)
 
 | Item | Description |
 | --- | --- |
-| Name | Car Crashes (Seaborn dataset) |
+| Name | Car Crashes (Seaborn) |
 | Source | [https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv](https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv) |
 | Records | 51 rows, 8 columns |
 
 | Column | Description |
 | --- | --- |
 | abbrev | State abbreviation |
-| total | Total drivers involved in fatal collisions per billion miles |
-| speeding | Percentage of drivers involved in fatal collisions who were speeding |
-| alcohol | Percentage of drivers involved in fatal collisions who were alcohol-impaired |
-| not_distracted | Percentage of drivers involved in fatal collisions who were not distracted |
-| no_previous | Percentage of drivers involved in fatal collisions with no previous accidents |
-| ins_premium | Car insurance premium (annual, dollars) |
+| total | Fatal collisions per billion miles |
+| speeding | % of fatal collisions involving speeding |
+| alcohol | % of fatal collisions involving alcohol impairment |
+| not_distracted | % of fatal collisions with no distraction |
+| no_previous | % of fatal collisions with no prior accidents |
+| ins_premium | Insurance premium (annual, dollars) |
 | ins_losses | Insurance losses per insured driver (annual, dollars) |
 
 ## Notes
