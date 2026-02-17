@@ -258,10 +258,10 @@ pyarrow
 # ======================================================
 
 # Core library for creating visualizations (~30 MB)
-matplotlib==3.9.2
+matplotlib
 
 # Statistical data visualization library built on matplotlib (~2-5 MB)
-seaborn==0.13.2
+seaborn
 
 # Interactive plotting library, often used with Shiny apps (~20-25 MB)
 # plotly

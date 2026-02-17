@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/datafun_06_eda.egg-info/PKG-INFO
+src/datafun_06_eda.egg-info/SOURCES.txt
+src/datafun_06_eda.egg-info/dependency_links.txt
+src/datafun_06_eda.egg-info/requires.txt
+src/datafun_06_eda.egg-info/top_level.txt
+tests/test_smoke.py

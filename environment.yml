@@ -16,5 +16,5 @@ dependencies:
       - jupyterlab-git
       - pandas
       - pyarrow
-      - matplotlib==3.9.2
-      - seaborn==0.13.2
+      - matplotlib
+      - seaborn
