@@ -5,21 +5,55 @@
   
 - Purpose: Create a custom exploratory data analysis (EDA) project using GitHub, Jupyter, pandas, Seaborn, and other popular data analytics tools.
 
-## Commands
+## Setup Commands (Using uv - Recommended)
+
+### Install Dependencies
+```powershell
+uv sync
 ```
+
+### Run Tests
+```powershell
+uv run pytest --cov=src --cov-report=term-missing
+```
+
+### Format Code
+```powershell
+uv run ruff format .
+```
+
+### Build Documentation
+```powershell
+uv run mkdocs build
+```
+
+### Serve Documentation Locally
+```powershell
+uv run mkdocs serve
+```
+Visit: http://127.0.0.1:8000
+
+### Deploy Documentation to GitHub Pages
+```powershell
+uv run mkdocs gh-deploy
+```
+
+## Alternative Setup (Using pip/venv)
+
+If you prefer the traditional approach:
+
+```powershell
 py -m venv .venv
-```
-
-```
 .\.venv\Scripts\activate
-```
-
-```
 py -m pip install --upgrade pip setuptools wheel
 py -m pip install --upgrade -r requirements.txt --timeout 100
 ```
 
-```
+## Open Notebook
+
+In VS Code, open `notebooks/tmims_eda.ipynb` and select the `.venv` kernel, or use:
+
+```powershell
 jupyter lab notebooks/tmims_eda.ipynb
 ```
 
@@ -27,11 +61,15 @@ jupyter lab notebooks/tmims_eda.ipynb
 - Created .gitignore, requirements.txt, and pyproject.toml.
 - Added a starter script (mims.py) that prints the author and module on two lines.
 - Added a project log to capture work notes.
-- Enabled required packages (jupyterlab, pandas, pyarrow, matplotlib, seaborn).
+- Set up project with uv and pyproject.toml (recommended approach).
+- Enabled required packages (jupyterlab, pandas, pyarrow, matplotlib, seaborn, pytest, ruff, mkdocs).
 - Added seaborn car_crashes dataset to data/car_crashes.csv.
 - Created data and notebooks folders.
 - Built EDA notebook at notebooks/tmims_eda.ipynb with dataset info, workflow sections, and plots.
 - Added additional charts (pairplot, bar chart, boxplot) for the car_crashes dataset.
+- Executed all notebook cells with outputs.
+- Added conclusion section summarizing key findings and implications.
+- Created comprehensive MkDocs documentation site.
 
 ## Files
 - [notebooks/tmims_eda.ipynb](notebooks/tmims_eda.ipynb)
