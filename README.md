@@ -37,7 +37,7 @@ jupyter lab notebooks/tmims_eda.ipynb
 - [notebooks/tmims_eda.ipynb](notebooks/tmims_eda.ipynb)
 - [data/car_crashes.csv](data/car_crashes.csv)
 
-## Dataset (Required)
+## Dataset Description
 
 | Item | Description |
 | --- | --- |
