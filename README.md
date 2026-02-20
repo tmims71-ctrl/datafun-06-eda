@@ -7,6 +7,20 @@
 
 ## Setup Commands (Using uv - Recommended)
 
+### Clone Repo to local computer
+ Clone to local: Open a **machine terminal** in your **`Repos`** folder and clone your new repo.
+
+```shell
+git clone https://github.com/tmims71-ctrl/datafun-05-sql
+```
+
+  Open project in VS Code: Change directory into the repo and open the project in VS Code by running `code .` ("code dot"):
+
+```shell
+cd datafun-06-eda
+code .
+```
+
 ### Install Dependencies
 ```powershell
 uv sync
